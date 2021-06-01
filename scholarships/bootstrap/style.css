@@ -1,0 +1,105 @@
+body {
+    font-family:'Open Sans', sans-serif;
+    font-size:14px;  
+}
+
+.text-center {
+    text-align:center;
+}
+
+p {
+    font-weight:300;
+    line-height:30px;
+    padding-bottom:20px;
+}
+
+.top-margin-low {
+    margin-top:120px;
+}
+
+
+/*=======================================
+    NAVBAR STYLES
+==================================================*/
+.navbar-brand {
+float: left;
+height: 90px;
+padding: 5px 5px 5px 50px;
+font-size: 30px;
+line-height: 60px;
+}
+
+.nav a {
+    color:#ffffff !important;
+}
+.navbar-header a {
+    color:#ffffff !important;
+    padding-right:100px;
+}
+.nav a {
+    color:#ffffff !important;
+}
+.navbar-header a {
+   min-height:90px;
+}
+.navbar-nav > li > a {
+padding-top: 10px;
+padding-bottom: 10px;
+line-height: 20px;
+font-size: 20px;
+padding-top: 50px!important;
+}
+
+/*=======================================
+    FOOTER STYLES
+==================================================*/
+.footer-section {
+    background-color:#D8D8BF;
+    color:black;
+    padding:20px 50px 20px 50px;
+    text-align:right;
+}
+
+
+
+/*=======================================
+    MEDIA QUERIES 
+==================================================*/
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .navbar-brand {
+
+padding: 5px 5px 5px 40px;
+font-size: 20px;
+
+}
+    .navbar-nav > li > a {
+padding-top: 10px;
+font-size: 13px;
+padding-top: 40px!important;
+}
+}
+
+
+#navuu{
+    background: #527F76;
+}
+#page-wrapper {
+    padding: 15px 15px;
+    min-height:auto;
+    background:#F3F3F3;
+   
+}
+#page-inner {
+    width:100%;
+    margin:-5px 10px 10px 0px;
+    background-color:#fff!important;
+    padding:10px;
+    min-height:435px;
+}
+
+
+
+
+
+
